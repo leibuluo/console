@@ -50,7 +50,6 @@ function InfoCard({ title, data, styles }: Props) {
               width="72px"
               color="gray.500"
               fontSize="12px"
-              flexShrink={0}
               {...styles?.label}
             >
               {info.label}
